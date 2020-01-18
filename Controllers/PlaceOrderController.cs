@@ -5,6 +5,7 @@ using System.Web.Mvc;
 
 namespace CafeO.Controllers
 {
+    [Authorize]
     public class PlaceOrderController : Controller
     {
         ApplicationDbContext db = new ApplicationDbContext();
