@@ -271,10 +271,11 @@
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\OrderCart\_CartSummary.cshtml" />
     <Content Include="Views\OrderCart\Index.cshtml" />
+    <Content Include="Views\PlaceOrder\Confirm.cshtml" />
+    <Content Include="Views\PlaceOrder\Complete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\PlaceOrder\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
