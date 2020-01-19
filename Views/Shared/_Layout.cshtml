@@ -23,6 +23,12 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Product", "Index", "Product")</li>
+                    @if (!(Request.IsAuthenticated && User.IsInRole("Admin")))
+                    {
+                        <li>
+                            @{ Html.RenderAction("CartSummary", "OrderCart"); }
+                        </li>
+                    }
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
