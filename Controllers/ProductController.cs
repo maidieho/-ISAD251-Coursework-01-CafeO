@@ -17,9 +17,22 @@ namespace CafeO.Controllers
         // GET: Product
         public ActionResult Index()
         {
-            var products = db.Products.Include(p => p.ProductType);
-            return View(products.ToList());
+            if (User.IsInRole("Admin"))
+            {
+                var all = db.Products.Include(p => p.ProductType);
+                return View(all.ToList());
+            }
+
+            else
+            {
+                var products = db.Products
+                    .Include(p => p.ProductType)
+                    .Where(p => p.IsAvailable == true);
+                return View(products.ToList());
+            }
+ 
         }
+
 
         // GET: Product/Details/5
         public ActionResult Details(int? id)
