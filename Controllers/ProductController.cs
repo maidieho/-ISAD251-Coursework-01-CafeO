@@ -15,11 +15,13 @@ namespace CafeO.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Product
-        public ActionResult Index()
+        public ActionResult Index(int? productTypeID)
         {
             if (User.IsInRole("Admin"))
             {
-                var all = db.Products.Include(p => p.ProductType);
+                var all = db.Products
+                    .Include(p => p.ProductType)
+                    .Where(p => p.ProductTypeId == productTypeID || productTypeID == null);
                 return View(all.ToList());
             }
 
@@ -27,7 +29,7 @@ namespace CafeO.Controllers
             {
                 var products = db.Products
                     .Include(p => p.ProductType)
-                    .Where(p => p.IsAvailable == true);
+                    .Where(p => p.IsAvailable == true && p.ProductTypeId == productTypeID || productTypeID == null);
                 return View(products.ToList());
             }
  
