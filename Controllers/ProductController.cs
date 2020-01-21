@@ -63,10 +63,19 @@ namespace CafeO.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,ProductTypeId,Description,Price,Image,ImagePath,IsAvailable")] Product product)
+        public ActionResult Create([Bind(Include = "Id,Name,ProductTypeId,Description,Price,IsAvailable")] Product product, HttpPostedFileBase file)
         {
             if (ModelState.IsValid)
             {
+                if (file != null)
+                {
+                    string ImageName = System.IO.Path.GetFileName(file.FileName);
+                    string physicalPath = Server.MapPath("~/Images/" + ImageName);
+                    file.SaveAs(physicalPath);
+
+                    product.ImagePath = ImageName;
+                }
+
                 db.Products.Add(product);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -97,10 +106,22 @@ namespace CafeO.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,ProductTypeId,Description,Price,Image,ImagePath,IsAvailable")] Product product)
+        public ActionResult Edit([Bind(Include = "Id,Name,ProductTypeId,Description,Price,IsAvailable")] Product product, HttpPostedFileBase file)
         {
             if (ModelState.IsValid)
             {
+                if (file != null)
+
+
+                {
+                    string ImageName = System.IO.Path.GetFileName(file.FileName);
+                    string physicalPath = Server.MapPath("~/Images/" + ImageName);
+                    file.SaveAs(physicalPath);
+
+                    product.ImagePath = ImageName;
+                }
+
+
                 db.Entry(product).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");

@@ -58,6 +58,17 @@
             @Html.DisplayFor(model => model.ImagePath)
         </dd>
 
+        @**@
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagePath)
+        </dt>
+
+        <dd>
+            <img src="~/images/@Html.DisplayFor(model => model.ImagePath)" width="400" />
+        </dd>
+        @**@
+
+
         <dt>
             @Html.DisplayNameFor(model => model.IsAvailable)
         </dt>
