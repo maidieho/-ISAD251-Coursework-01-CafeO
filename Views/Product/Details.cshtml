@@ -82,9 +82,9 @@
 <p>
     @if (Request.IsAuthenticated && User.IsInRole("Admin"))
     {
-        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary btn-large" })
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-warning btn-large" })
     }
 
 
-    @Html.ActionLink("Back to List", "Index", "", new { @class = "btn btn-primary btn-large" })
+    @Html.ActionLink("All Product", "Index", "", new { @class = "btn btn-primary btn-large" })
 </p>
