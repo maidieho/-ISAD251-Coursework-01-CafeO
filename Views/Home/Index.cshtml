@@ -11,24 +11,30 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
-            <div class="panel panel-primary">
-                <div class="panel-heading">BLACK FRIDAY DEAL</div>
-                <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="panel panel-danger">
-                <div class="panel-heading">BLACK FRIDAY DEAL</div>
-                <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+            <div class="panel panel-success">
+                <div class="panel-heading">Tea</div>
+                <div class="panel-body"><img src="/Images/EnglishBreakfast2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                <div class="panel-footer">
+                @Html.ActionLink("Order Tea", "Index", "Product", new { productTypeID = 1 }, new { @class = "btn btn-success" })
+                </div>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="panel panel-success">
-                <div class="panel-heading">BLACK FRIDAY DEAL</div>
-                <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                <div class="panel-heading">Cake</div>
+                <div class="panel-body"><img src="/Images/VictoriaSponge.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                <div class="panel-footer">
+                    @Html.ActionLink("Order Cake", "Index", "Product", new { productTypeID = 2 }, new { @class = "btn btn-success" })
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-success">
+                <div class="panel-heading">Tea & Cake</div>
+                <div class="panel-body"><img src="/Images/TeaAndCake.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                <div class="panel-footer">
+                    @Html.ActionLink("Order", "Index", "Product","", new { @class = "btn btn-success" })
+                </div>
             </div>
         </div>
     </div>
