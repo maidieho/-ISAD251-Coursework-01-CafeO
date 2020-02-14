@@ -50,8 +50,8 @@ namespace CafeO.Migrations
                 var user = new ApplicationUser { UserName = "admin@cafe.com" };
                 var guestUser = new ApplicationUser { UserName = "guest@cafe.com" };
 
-                userManager.Create(user, "admin123"); //strong password!#@$!
-                userManager.Create(guestUser, "guest123"); //strong password!#@$!
+                userManager.Create(user, "admin123"); //simple password for easy of testing
+                userManager.Create(guestUser, "guest123"); //simple password for easy of testing
 
                 roleManager.Create(new IdentityRole { Name = "Admin" });
                 userManager.AddToRole(user.Id, "Admin");

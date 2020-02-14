@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Diagnostics.Eventing.Reader
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -24,12 +25,19 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Tea", "Index", "Product", new { productTypeID = 1 }, null)</li>
                     <li>@Html.ActionLink("Cake", "Index", "Product", new { productTypeID = 2 }, null)</li>
+
+
                     @if (!(Request.IsAuthenticated && User.IsInRole("Admin")))
                     {
                         <li>
                             @{ Html.RenderAction("CartSummary", "OrderCart"); }
                         </li>
                     }
+                    else
+                    {
+                        <li>@Html.ActionLink("Orders", "Index", "OrderDetail")</li>
+                    }
+
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
