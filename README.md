@@ -111,10 +111,10 @@ To run this code-first application, please run the "update-datebase" command in 
 ### Testing
 Application testing can be conducted by login with following two testing accounts:
 
-## Testing admin views and features
+#### Testing admin views and features
 username: admin@cafe.com\
 password: admin123
 
-## Testing customer views and features
+#### Testing customer views and features
 username: guest@cafe.com\
 password: guest123
