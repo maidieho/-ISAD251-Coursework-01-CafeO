@@ -140,5 +140,5 @@ password: guest123
 ## Acknowledgments
 * Module Leader: Dr. Shirley Atkinson
 * Module Lecturer: Mr. William Pang
-* Peer Reviwer: Mr. Ivan Wong
+* Peer Review Partner: Mr. Ivan Wong
 
