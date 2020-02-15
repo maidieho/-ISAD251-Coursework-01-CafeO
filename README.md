@@ -42,6 +42,7 @@ Two user roles, i.e. Admin & Customer, with respective views and features are cr
 1. User Login with input validation at client side.
 1. Data input validation including business rules of the product details are adopted
 1. RESTful API to deliver JSON data for four main HTTP verbs : GET, PUT, POST, DELETE
+1. Customer User Registration
 
 ## Screenshots
 Following screenshots illastrate the basic features of this application.
@@ -68,7 +69,7 @@ Click the "Detail" button next to the product to view the details of that produc
 Click the "Edit" button next to that product to edit the product details.
 <kbd>![](/screenshots/admin05Edit.JPG)<kbd>
 
-#### Remove Produt from sale
+#### Remove Product from sale
 Click the "Delete" next to the product to remove that product from sale.
 <kbd>![](/screenshots/admin06Remove.JPG)<kbd>
 
