@@ -88,14 +88,17 @@ Home page of the cafe containing slideshow of images which attrack customers.
 <kbd>![](/screenshots/customer01Home.JPG)<kbd>
 
 #### Product Menu (Tea/Cake)
-Click "Drink" or "Cake" on the navigation bar to view the Drink/Cake Menu.
+Click "Drink" on the navigation bar to view the Drink/Cake Menu.\
 <kbd>![](/screenshots/customer02Tea.JPG)<kbd>
+Click "Cake" on the navigation bar to view the Drink/Cake Menu.\    
 <kbd>![](/screenshots/customer02Cake.JPG)<kbd>
 
 #### Order a Product
-Click "Add to order" next to the product for order.  The user can further add any product to the current order before the order completed.
-![](/screenshots/customer03OrderTea.JPG)
-![](/screenshots/customer03OrderCake.JPG)
+Click "Add to order" next to the product for order.  The user can further add any product to the current order before the order completed.\
+Order Tea\
+<kbd>![](/screenshots/customer03OrderTea.JPG)<kbd>
+Order Cake\    
+<kbd>![](/screenshots/customer03OrderCake.JPG)<kbd>
 
 #### View Ordered Product
 Click "Review Ordered Item" to view the ordered product.
