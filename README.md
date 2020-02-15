@@ -121,7 +121,8 @@ These instructions will get you a copy of the project up and running on your loc
 Download the code and open the open CafeO.csproj with Microsoft Visual Studio 2019.
 
 ### Prerequisites
-To run this code-first application, please run the "update-datebase" command in the package manager console before running the application.
+* To run this code-first application, please run the "update-datebase" command in the package manager console before running the application.
+* Enable the auto-update of packages.
 
 ### Testing Accounts
 Application testing can be conducted by login with following two testing accounts:
