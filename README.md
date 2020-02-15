@@ -109,10 +109,16 @@ Click "Review Ordered Item" to view the ordered product.
 Click "Remove from cart" to withdraw an ordered product from current order.
 <kbd>![](/screenshots/customer04WithdrawOrder.JPG)<kbd>
 
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for testing purposes.
+
+### Download & Run
+Download the code and open the open CafeO.csproj with Microsoft Visual Studio 2019.
+
 ### Prerequisites
 To run this code-first application, please run the "update-datebase" command in the package manager console before running the application.
 
-### Testing
+### Testing Accounts
 Application testing can be conducted by login with following two testing accounts:
 
 #### Testing admin views and features
@@ -122,3 +128,17 @@ password: admin123
 #### Testing customer views and features
 username: guest@cafe.com\
 password: guest123
+
+## Built With
+* [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/)
+* [ASP.Net](https://dotnet.microsoft.com/apps/aspnet)
+* [Entity Framework](https://docs.microsoft.com/en-us/ef/)
+
+## Authors
+* **Maidie Ho**
+
+## Acknowledgments
+* Module Leader: Dr. Shirley Atkinson
+* Module Lecturer: Mr. William Pang
+* Peer Reviwer: Mr. Ivan Wong
+
