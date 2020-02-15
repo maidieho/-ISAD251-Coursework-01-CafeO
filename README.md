@@ -3,123 +3,118 @@
 ## Linked YouTube video (of using this database application)
 [![Linked YouTube video (of the using the database application)](http://img.youtube.com/vi/CVgH_lmaZZ4/0.jpg)](http://www.youtube.com/watch?v=CVgH_lmaZZ4)
 
-## Screenshots of the application
-
-Following screens shows the core basic functions of this application.
-### Customer
-#### Home Page
-The Home page contain the information, such as pictures, opening hours and locations of the pub.
-![](/screens/customer/001Home.JPG)
-
-#### Drink Menu
-The customer click "Drink" on the navigation bar to view the Drink Menu.
-![](/screens/customer/002Drinks.JPG)
-
-#### Order a Drink
-The customer click "Add to order" next to the drink to order that drink.
-![](/screens/customer/002DrinksAddItemToOrder.JPG)
-
-#### Snack Menu
-The customer click "Snack" on the navigation bar to view the Snack Menu.
-![](/screens/customer/003Snacks.JPG)
-
-#### Order a Snack
-The customer click "Add to order" next to the snack to order that snack.
-![](/screens/customer/003SnacksAddItemToOrder.JPG)
-
-#### View Ordered Items
-The customer click "Review Ordered Item" to view the ordered item.
-![](/screens/customer/004ViewOrderedItems.JPG)
-
-#### Remove Ordered Items
-The user simply click "Remove from cart" to remove the ordered item before placing the order.
-![](/screens/customer/004ViewOrderedItemsRemoved.JPG)
-
-### Admin
-#### Login Page
-The admin login the same site and admin functions will be displayed.
-![](/screens/admin/001AdminLogin.JPG)
-
-#### Drink or Snack Menu
-The admin click the "Drink" or "Snack" Menu from the navigation bar to view the list of items.
-![](/screens/admin/002Admin00ItemMenu.png)
-
-### Input Item Details
-The admin click "Create" to input item details for sale.
-![](/screens/admin/002Admin01InputItemDetails.JPG)
-
-### Read Item Details
-The admin click "Detail" next to the item to view the details of that item.
-![](/screens/admin/002Admin02ViewItemDetails.JPG)
-
-### Edit Item Details
-The admin click "Edit" next to the item to edit the details of that item.
-![](/screens/admin/002Admin03EditItemDetails.JPG)
-
-### Remove Item from sale
-The admin click "Delete" next to the item to remove that item from sale.
-![](/screens/admin/003AdminRemoveItem.JPG)
-
-### View Customer Order(s)
-The admin click "Customer Orders" on the navigation bar to view customers' order(s).
-![](/screens/admin/004AdminViewOrder.JPG)
-
-### Search a Customer Order(s)
-The admin enter the username of a customer in the search box and then click "Search" to view the order(s) of that customer.
-![](/screens/admin/004AdminViewOrderOfUser.JPG)
-
 ## Application fact sheet
-This is an application is designed for the licensed premises, namely IvanPub, selling alcohol and bar snacks.  This application provides the ability for a customer to order drinks and snacks along with an admin user to enter the details of drinks and snacks for sale.  The design of this application is based on the following nine user stories to provide the basic requirements:
-1.	A customer would like to order a drink/snack.
-1.	A customer would like to view what he/she has ordered.
-1.	A customer would like to add drink/snack to his/ her current order.
-1.	A customer would like to cancel my order for a drink/snack.
-1.	An admin would like to enter details of the drinks/snacks for sale.
-1.	An admin would like to read the details of the drinks/snacks for sale.
-1.	An admin would like to view a customer’s order(s).
-1.	An admin would like to edit the details of the drinks/snacks for sale.
+### Background
+This database driven application is a simple three tier application having a simple browser-based client, middleware coded in a server-side language of C# and a database contained in a Microsoft SQL database.  It is developed for use in a tea-room/cafe which provides the functionalities for the customer user to order the product, in addition to the admin user to create and enter details of the product for sale.  According two the requirements, only two types of product, i.e. tea and cake, are included in this application.
+
+### Scope
+Besides, the features of this application is based on the requirements listed below:
+1.	A customer want to order a product.
+1.	A customer want to view what have been ordered.
+1.	A customer want to add more product in the current order.
+1.	A customer want to remove items from the current order.
+1.	An admin want to enter details of the drinks/snacks for sale.
+1.	An admin want like to read the details of the drinks/snacks for sale.
+1.	An admin want like to view a customer’s order(s).
+1.	An admin want like to edit the details of the drinks/snacks for sale.
 1.	An the admin would like to withdraw a drink/snack from sale.
 
-This is a minimum viable product (MVP) but not a full system.  Only the above user stories provided above are implemented.  The following three aspects are outside of the scope of the system:
-1.	Payments that the customer paying for their order is not required.
-1.	Delivering the order that the customer receiving their order is not required.
-1.	Other users that no other user stories for other users are required.
+### Outside the Scope
+As this application is not a full system.  This minimum viable product (MVP) only impletemented the features listed above, whereas the following three features are outside of the scope of this system:
+1.	Payments\
+    Customer paying for their order is not required.
+1.	Delivering the order\
+    Customer receiving their order is not required.
+1.	Other users\
+    No other users with other user stories are required.
 
-### FIVE key features
-1. Allow customer to order a drink/snack.
-1. Allow customer to view what they have selected for their order.
-1. Allow customer to add/ remove item in their order.
-1. Allow admin to add, edit, or remove drinks/ snacks for sale.
-1. Allow admin to view customer’s orders.
+### Key Features
+1. Customer user can order tea/cake.
+1. Customer user can read their ordered tea/cake.
+1. Customer user can add more/ remove the tea/cake in the current order.
+1. Admin user can create, edit, or remove tea/cake for sale.
+1. Admin user can view particular customer’s order(s).
 
-This database driven application is a simple three tier application having a simple browser-based client, middleware coded in a server-side language of C# and a database contained in a Microsoft SQL database.
+### User Roles
+Two user roles, i.e. Admin & Customer, with respective views and features are created for this application.   
 
+### Other Features
+1. User Login with input validation at client side.
+1. Data input validation including business rules of the product details are adopted
+1. RESTful API to deliver JSON data for four main HTTP verbs : GET, PUT, POST, DELETE
+
+## Screenshots
+Following screenshots illastrate the basic features of this application.
+
+### Admin Views & Features
+For the user role Admin
+#### Login page
+Login the site.
+![](/screenshots/admin01LoginPage.JPG)
+
+#### Product Menu
+Click the "Tea" or "Cake" Menu from the navigation bar to view the list of products for sale.
+![](/screenshots/admin02Menu.png)
+
+#### Create Product on Menu
+Click the "Create" button to create product for sale and input details.
+![](/screenshots/admin03Create.JPG)
+
+#### View Product Details
+Click the "Detail" button next to the product to view the details of that product.
+![](/screenshots/admin04View.JPG)
+
+### Edit Product Details
+Click the "Edit" button next to that product to edit the product details.
+![](/screenshots/admin05Edit.JPG)
+
+### Remove Produt from sale
+Click the "Delete" next to the product to remove that product from sale.
+![](/screenshots/admin06Remove.JPG)
+
+### View Customer Order(s)
+Click the "Customer Orders" on the navigation bar.
+![](/screenshots/admin07ViewOrder.JPG)
+
+### View Orders(s) of a Customer
+Enter the username of the customer in the searchbox and click the "Search" button to view the order(s) of that customer.
+![](/screenshots/admin08ViewUserOrder.JPG)
+
+### Customer Views & Features
+For the customer user
+
+#### Home Page
+Home page of the cafe containing slideshow of images which attrack customers.
+![](/screenshots/customer01Home.JPG)
+
+#### Product Menu (Tea/Cake)
+Click "Drink" or "Cake" on the navigation bar to view the Drink/Cake Menu.
+![](/screenshots/customer02Tea.JPG)
+![](/screenshots/customer02Cake.JPG)
+
+#### Order a Product
+Click "Add to order" next to the product for order.  The user can further add any product to the current order before the order completed.
+![](/screenshots/customer03OrderTea.JPG)
+![](/screenshots/customer03OrderCake.JPG)
+
+#### View Ordered Product
+Click "Review Ordered Item" to view the ordered product.
+![](/screenshots/customer04ViewOrder.JPG)
+
+#### Withdraw Ordered Product
+Click "Remove from cart" to withdraw an ordered product from current order.
+![](/screenshots/customer04WithdrawOrder.JPG)
 
 ### Prerequisites
+To run this code-first application, please run the "update-datebase" command in the package manager console before running the application.
 
-run command update-datebase in the package manager console before running the application.
+### Testing
+Application testing can be conducted by login with following two testing accounts:
 
-### testing
+## Testing admin views and features
+username: admin@cafe.com\
+password: admin123
 
-Following two accounts are seeded in the database for testing:
-
-## admin
-username: admin@IvanPub.co.uk\
-password: admin251
-
-## customer
-username: customer@IvanPub.co.uk\
-password: pass251
-
-
-
-
-
-
-
-# CafeO
-(1) Package Manage > update-database
-(2) Control F5 to run
-(3) login website: 
-UserName = "admin@cafe.com" Password = "admin123"
-UserName = "guest@cafe.com" Password = "guest123"
+## Testing customer views and features
+username: guest@cafe.com\
+password: guest123
