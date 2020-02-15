@@ -64,19 +64,19 @@ Click the "Create" button to create product for sale and input details.
 Click the "Detail" button next to the product to view the details of that product.
 ![](/screenshots/admin04View.JPG)
 
-### Edit Product Details
+#### Edit Product Details
 Click the "Edit" button next to that product to edit the product details.
 ![](/screenshots/admin05Edit.JPG)
 
-### Remove Produt from sale
+#### Remove Produt from sale
 Click the "Delete" next to the product to remove that product from sale.
 ![](/screenshots/admin06Remove.JPG)
 
-### View Customer Order(s)
+#### View Customer Order(s)
 Click the "Customer Orders" on the navigation bar.
 ![](/screenshots/admin07ViewOrder.JPG)
 
-### View Orders(s) of a Customer
+#### View Orders(s) of a Customer
 Enter the username of the customer in the searchbox and click the "Search" button to view the order(s) of that customer.
 ![](/screenshots/admin08ViewUserOrder.JPG)
 
