@@ -54,43 +54,43 @@ Login the site.
 
 #### Product Menu
 Click the "Tea" or "Cake" Menu from the navigation bar to view the list of products for sale.
-![](/screenshots/admin02Menu.JPG)
+<kbd>![](/screenshots/admin02Menu.JPG)<kbd>
 
 #### Create Product on Menu
 Click the "Create" button to create product for sale and input details.
-![](/screenshots/admin03Create.JPG)
+<kbd>![](/screenshots/admin03Create.JPG)<kbd>
 
 #### View Product Details
 Click the "Detail" button next to the product to view the details of that product.
-![](/screenshots/admin04View.JPG)
+<kbd>![](/screenshots/admin04View.JPG)<kbd>
 
 #### Edit Product Details
 Click the "Edit" button next to that product to edit the product details.
-![](/screenshots/admin05Edit.JPG)
+<kbd>![](/screenshots/admin05Edit.JPG)<kbd>
 
 #### Remove Produt from sale
 Click the "Delete" next to the product to remove that product from sale.
-![](/screenshots/admin06Remove.JPG)
+<kbd>![](/screenshots/admin06Remove.JPG)<kbd>
 
 #### View Customer Order(s)
 Click the "Customer Orders" on the navigation bar.
-![](/screenshots/admin07ViewOrder.JPG)
+<kbd>![](/screenshots/admin07ViewOrder.JPG)<kbd>
 
 #### View Orders(s) of a Customer
 Enter the username of the customer in the searchbox and click the "Search" button to view the order(s) of that customer.
-![](/screenshots/admin08ViewUserOrder.JPG)
+<kbd>![](/screenshots/admin08ViewUserOrder.JPG)<kbd>
 
 ### Customer Views & Features
 For the customer user
 
 #### Home Page
 Home page of the cafe containing slideshow of images which attrack customers.
-![](/screenshots/customer01Home.JPG)
+<kbd>![](/screenshots/customer01Home.JPG)<kbd>
 
 #### Product Menu (Tea/Cake)
 Click "Drink" or "Cake" on the navigation bar to view the Drink/Cake Menu.
-![](/screenshots/customer02Tea.JPG)
-![](/screenshots/customer02Cake.JPG)
+<kbd>![](/screenshots/customer02Tea.JPG)<kbd>
+<kbd>![](/screenshots/customer02Cake.JPG)<kbd>
 
 #### Order a Product
 Click "Add to order" next to the product for order.  The user can further add any product to the current order before the order completed.
@@ -99,11 +99,11 @@ Click "Add to order" next to the product for order.  The user can further add an
 
 #### View Ordered Product
 Click "Review Ordered Item" to view the ordered product.
-![](/screenshots/customer04ViewOrder.JPG)
+<kbd>![](/screenshots/customer04ViewOrder.JPG)<kbd>
 
 #### Withdraw Ordered Product
 Click "Remove from cart" to withdraw an ordered product from current order.
-![](/screenshots/customer04WithdrawOrder.JPG)
+<kbd>![](/screenshots/customer04WithdrawOrder.JPG)<kbd>
 
 ### Prerequisites
 To run this code-first application, please run the "update-datebase" command in the package manager console before running the application.
