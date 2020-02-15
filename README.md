@@ -54,7 +54,7 @@ Login the site.
 
 #### Product Menu
 Click the "Tea" or "Cake" Menu from the navigation bar to view the list of products for sale.
-![](/screenshots/admin02Menu.png)
+![](/screenshots/admin02Menu.JPG)
 
 #### Create Product on Menu
 Click the "Create" button to create product for sale and input details.
