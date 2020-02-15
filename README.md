@@ -50,7 +50,7 @@ Following screenshots illastrate the basic features of this application.
 For the user role Admin
 #### Login page
 Login the site.
-![](/screenshots/admin01LoginPage.JPG)
+<kbd>![](/screenshots/admin01LoginPage.JPG)<kbd>
 
 #### Product Menu
 Click the "Tea" or "Cake" Menu from the navigation bar to view the list of products for sale.
