@@ -2,6 +2,7 @@
 
 ## Linked YouTube video (of using this database application)
 [![Linked YouTube video (of the using the database application)](http://img.youtube.com/vi/CVgH_lmaZZ4/0.jpg)](http://www.youtube.com/watch?v=CVgH_lmaZZ4)
+http://www.youtube.com/watch?v=CVgH_lmaZZ4
 
 ## Application Factsheet
 ### Background
