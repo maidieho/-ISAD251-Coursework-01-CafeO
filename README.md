@@ -137,7 +137,7 @@ username: guest@cafe.com\
 password: guest123
 
 ## Built With
-* [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/)
+* [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
 * [ASP.Net](https://dotnet.microsoft.com/apps/aspnet)
 * [Entity Framework](https://docs.microsoft.com/en-us/ef/)
 
