@@ -41,7 +41,7 @@ Two user roles, i.e. Admin & Customer, with respective views and features are cr
 ### Other Features
 1. User Login with input validation at client side.
 1. Data input validation including business rules of the product details are adopted
-1. RESTful API to deliver JSON data for four main HTTP verbs : GET, PUT, POST, DELETE
+1. RESTful Web services allow the other systems to access and manipulate textual representations of product data
 1. Customer User Registration
 
 ## Screenshots
