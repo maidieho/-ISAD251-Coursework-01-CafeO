@@ -6,7 +6,7 @@ http://www.youtube.com/watch?v=CVgH_lmaZZ4
 
 ## Application Factsheet
 ### Background
-This database driven application is a simple three tier application having a simple browser-based client, middleware coded in a server-side language of C# and a database contained in a Microsoft SQL database.  It is developed for use in a tea-room/cafe which provides the functionalities for the customer user to order the product, in addition to the admin user to create and enter details of the product for sale.  According two the requirements, only two types of product, i.e. tea and cake, are included in this application.
+This database driven application is a simple three tier application having a simple browser-based client, middleware coded in a server-side language of C# and a database contained in a Microsoft SQL database.  It is developed for use in a tea-room/cafe which provides the functionalities for the customer user to order the product, in addition to the admin user to create and enter details of the product for sale.  According to the requirements, only two types of product, i.e. tea and cake, are included in this application.
 
 ### Scope
 Besides, the features of this application is based on the requirements listed below:
